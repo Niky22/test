@@ -13,7 +13,7 @@ dp = Dispatcher(bot)
 HEROKU_APP_NAME = "f1cards"
 
 # webhook settings
-WEBHOOK_HOST = "https://f1cards.herokuapp.com/"
+WEBHOOK_HOST = "https://f1cards.herokuapp.com"
 WEBHOOK_PATH = f'/webhook/{TOKEN}'
 WEBHOOK_URL = f'{WEBHOOK_HOST}{WEBHOOK_PATH}'
 
