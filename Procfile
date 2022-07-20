@@ -1,1 +1,1 @@
-web: python3 Init.py
+web: python3 web.py
