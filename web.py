@@ -34,8 +34,8 @@ async def on_shutdown(dispatcher):
 async def echo(message: types.Message):
     await message.answer(message.text)
 
-
- if __name__ == '__main__':
+    
+if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     start_webhook(
         dispatcher=dp,
